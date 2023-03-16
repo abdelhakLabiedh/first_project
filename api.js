@@ -3,7 +3,7 @@ const app = express()
 
 
 
-app.use('',(req,res)=>{
+app.use('/',(req,res)=>{
     res.json({message : 'salut'})
 })
 const port=3000
